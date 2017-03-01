@@ -88,7 +88,8 @@ class CollectionViewController: UIViewController,UICollectionViewDelegate,UIColl
         
         cell.label.text=array.object(at: indexPath.row) as? String
         
-        
+        // iam changed name label in collection view cell, and changed design.
+         
         return cell
         
     }
