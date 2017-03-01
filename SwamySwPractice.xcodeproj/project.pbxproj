@@ -7,14 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B23AB79D1E5AF7400070A45D /* TabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23AB79C1E5AF7400070A45D /* TabelViewController.swift */; };
+		B23AB7A21E5AFAA00070A45D /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23AB7A01E5AFAA00070A45D /* TableViewCell.swift */; };
+		B23AB7A31E5AFAA00070A45D /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B23AB7A11E5AFAA00070A45D /* TableViewCell.xib */; };
+		B24B90AF1E5EAFD8001F295F /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24B90AE1E5EAFD8001F295F /* CollectionViewController.swift */; };
+		B24B90B11E5EB17F001F295F /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24B90B01E5EB17F001F295F /* CollectionViewCell.swift */; };
 		B2C1A23C1E5700E900A7554A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C1A23B1E5700E900A7554A /* AppDelegate.swift */; };
 		B2C1A23E1E5700E900A7554A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C1A23D1E5700E900A7554A /* ViewController.swift */; };
 		B2C1A2411E5700E900A7554A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C1A23F1E5700E900A7554A /* Main.storyboard */; };
 		B2C1A2431E5700E900A7554A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2C1A2421E5700E900A7554A /* Assets.xcassets */; };
 		B2C1A2461E5700E900A7554A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C1A2441E5700E900A7554A /* LaunchScreen.storyboard */; };
+		B2C1A24E1E57012E00A7554A /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C1A24D1E57012E00A7554A /* MyViewController.swift */; };
+		B2C1A2501E5707FA00A7554A /* WrapperCleass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C1A24F1E5707FA00A7554A /* WrapperCleass.swift */; };
+		E1CD55782EB6DD84FD8238E6 /* Pods_SwamySwPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C9BD321B6B54088F88A07C4 /* Pods_SwamySwPractice.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04B6235638956FB2C734E907 /* Pods-SwamySwPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwamySwPractice.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwamySwPractice/Pods-SwamySwPractice.release.xcconfig"; sourceTree = "<group>"; };
+		0C9BD321B6B54088F88A07C4 /* Pods_SwamySwPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwamySwPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B23AB79C1E5AF7400070A45D /* TabelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabelViewController.swift; sourceTree = "<group>"; };
+		B23AB7A01E5AFAA00070A45D /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		B23AB7A11E5AFAA00070A45D /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		B24B90AE1E5EAFD8001F295F /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		B24B90B01E5EB17F001F295F /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		B2C1A2381E5700E900A7554A /* SwamySwPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwamySwPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2C1A23B1E5700E900A7554A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2C1A23D1E5700E900A7554A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +37,9 @@
 		B2C1A2421E5700E900A7554A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2C1A2451E5700E900A7554A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2C1A2471E5700E900A7554A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2C1A24D1E57012E00A7554A /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		B2C1A24F1E5707FA00A7554A /* WrapperCleass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WrapperCleass.swift; sourceTree = "<group>"; };
+		C1283E31170700A01EF3BA7E /* Pods-SwamySwPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwamySwPractice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwamySwPractice/Pods-SwamySwPractice.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1CD55782EB6DD84FD8238E6 /* Pods_SwamySwPractice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		042515BDFD436AF5A1A55E60 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1283E31170700A01EF3BA7E /* Pods-SwamySwPractice.debug.xcconfig */,
+				04B6235638956FB2C734E907 /* Pods-SwamySwPractice.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8C98E5683E185280F1A74310 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C9BD321B6B54088F88A07C4 /* Pods_SwamySwPractice.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B2C1A22F1E5700E900A7554A = {
 			isa = PBXGroup;
 			children = (
 				B2C1A23A1E5700E900A7554A /* SwamySwPractice */,
 				B2C1A2391E5700E900A7554A /* Products */,
+				042515BDFD436AF5A1A55E60 /* Pods */,
+				8C98E5683E185280F1A74310 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,7 +93,14 @@
 			isa = PBXGroup;
 			children = (
 				B2C1A23B1E5700E900A7554A /* AppDelegate.swift */,
+				B2C1A24F1E5707FA00A7554A /* WrapperCleass.swift */,
 				B2C1A23D1E5700E900A7554A /* ViewController.swift */,
+				B2C1A24D1E57012E00A7554A /* MyViewController.swift */,
+				B23AB79C1E5AF7400070A45D /* TabelViewController.swift */,
+				B23AB7A01E5AFAA00070A45D /* TableViewCell.swift */,
+				B23AB7A11E5AFAA00070A45D /* TableViewCell.xib */,
+				B24B90AE1E5EAFD8001F295F /* CollectionViewController.swift */,
+				B24B90B01E5EB17F001F295F /* CollectionViewCell.swift */,
 				B2C1A23F1E5700E900A7554A /* Main.storyboard */,
 				B2C1A2421E5700E900A7554A /* Assets.xcassets */,
 				B2C1A2441E5700E900A7554A /* LaunchScreen.storyboard */,
@@ -71,9 +116,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2C1A24A1E5700E900A7554A /* Build configuration list for PBXNativeTarget "SwamySwPractice" */;
 			buildPhases = (
+				AF952A7D88A47789CBEBFA8E /* [CP] Check Pods Manifest.lock */,
 				B2C1A2341E5700E900A7554A /* Sources */,
 				B2C1A2351E5700E900A7554A /* Frameworks */,
 				B2C1A2361E5700E900A7554A /* Resources */,
+				F002AA261BC3032645F07BF6 /* [CP] Embed Pods Frameworks */,
+				884AD342EFE49435F378218E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2C1A2461E5700E900A7554A /* LaunchScreen.storyboard in Resources */,
+				B23AB7A31E5AFAA00070A45D /* TableViewCell.xib in Resources */,
 				B2C1A2431E5700E900A7554A /* Assets.xcassets in Resources */,
 				B2C1A2411E5700E900A7554A /* Main.storyboard in Resources */,
 			);
@@ -131,13 +180,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		884AD342EFE49435F378218E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwamySwPractice/Pods-SwamySwPractice-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF952A7D88A47789CBEBFA8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F002AA261BC3032645F07BF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwamySwPractice/Pods-SwamySwPractice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B2C1A2341E5700E900A7554A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B2C1A23E1E5700E900A7554A /* ViewController.swift in Sources */,
+				B2C1A24E1E57012E00A7554A /* MyViewController.swift in Sources */,
+				B24B90B11E5EB17F001F295F /* CollectionViewCell.swift in Sources */,
+				B2C1A2501E5707FA00A7554A /* WrapperCleass.swift in Sources */,
+				B23AB7A21E5AFAA00070A45D /* TableViewCell.swift in Sources */,
+				B24B90AF1E5EAFD8001F295F /* CollectionViewController.swift in Sources */,
 				B2C1A23C1E5700E900A7554A /* AppDelegate.swift in Sources */,
+				B23AB79D1E5AF7400070A45D /* TabelViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +361,7 @@
 		};
 		B2C1A24B1E5700E900A7554A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1283E31170700A01EF3BA7E /* Pods-SwamySwPractice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwamySwPractice/Info.plist;
@@ -270,6 +374,7 @@
 		};
 		B2C1A24C1E5700E900A7554A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04B6235638956FB2C734E907 /* Pods-SwamySwPractice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwamySwPractice/Info.plist;
@@ -299,6 +404,7 @@
 				B2C1A24C1E5700E900A7554A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
