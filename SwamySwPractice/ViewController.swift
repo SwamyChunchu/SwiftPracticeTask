@@ -132,7 +132,8 @@ class ViewController: UIViewController {
         
         //declare parameter as a dictionary which contains string as key and value combination. considering inputs are valid
         
-        let parameters = ["city": "", "category": "","member": "1","page": "1"] as Dictionary<String, String>
+        let parameters = ["city": "", "category": "","member": "2","page": "1"] as Dictionary<String, String>
+        
         
         //create the url with URL
         let url = URL(string: "http://bluedint.co.in/api/index.php/12345/deal_all/")! //change the url

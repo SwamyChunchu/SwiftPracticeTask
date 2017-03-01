@@ -167,15 +167,41 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionViewCell" id="424-eI-r3G" customClass="CollectionViewCell" customModule="SwamySwPractice" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="175" height="158"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="175" height="150"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="175" height="158"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="175" height="150"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f11-pG-jf9">
-                                                    <rect key="frame" x="8" y="75" width="167" height="25"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1234567890" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f11-pG-jf9">
+                                                    <rect key="frame" x="8" y="63" width="159" height="25"/>
+                                                    <color key="backgroundColor" red="0.24314288110000001" green="1" blue="0.1442672763" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="25" id="Hlq-aY-xkW"/>
+                                                        <constraint firstAttribute="width" constant="159" id="n4Q-5t-bPT"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shyam" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gGl-E9-nNp">
+                                                    <rect key="frame" x="8" y="23" width="159" height="25"/>
+                                                    <color key="backgroundColor" red="1" green="0.76432096429999996" blue="0.32471442039999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="25" id="2ts-E7-800"/>
+                                                        <constraint firstAttribute="width" constant="159" id="i58-E3-ps8"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kumar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k1G-YQ-ZUu">
+                                                    <rect key="frame" x="8" y="110" width="159" height="25"/>
+                                                    <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="25" id="9jx-bK-5cy"/>
+                                                        <constraint firstAttribute="width" constant="159" id="QTr-Pn-CKD"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -183,7 +209,19 @@
                                             </subviews>
                                         </view>
                                         <color key="backgroundColor" red="0.89489514979999996" green="1" blue="0.4766407989" alpha="1" colorSpace="calibratedRGB"/>
-                                        <size key="customSize" width="175" height="158"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="k1G-YQ-ZUu" secondAttribute="trailing" constant="8" id="34d-fx-FBF"/>
+                                            <constraint firstAttribute="trailing" secondItem="gGl-E9-nNp" secondAttribute="trailing" constant="8" id="9Q8-Pl-MDm"/>
+                                            <constraint firstAttribute="trailing" secondItem="f11-pG-jf9" secondAttribute="trailing" constant="8" id="ABF-dc-evt"/>
+                                            <constraint firstItem="f11-pG-jf9" firstAttribute="centerY" secondItem="424-eI-r3G" secondAttribute="centerY" id="NBX-F6-Yuu"/>
+                                            <constraint firstAttribute="bottom" secondItem="k1G-YQ-ZUu" secondAttribute="bottom" constant="16" id="a7i-d6-qxk"/>
+                                            <constraint firstItem="gGl-E9-nNp" firstAttribute="top" secondItem="424-eI-r3G" secondAttribute="top" constant="23" id="bvb-Xi-850"/>
+                                            <constraint firstItem="f11-pG-jf9" firstAttribute="leading" secondItem="424-eI-r3G" secondAttribute="leading" constant="8" id="dGC-wy-aQK"/>
+                                            <constraint firstItem="gGl-E9-nNp" firstAttribute="leading" secondItem="424-eI-r3G" secondAttribute="leading" constant="8" id="e61-jc-TCK"/>
+                                            <constraint firstItem="f11-pG-jf9" firstAttribute="centerX" secondItem="424-eI-r3G" secondAttribute="centerX" id="qzy-85-fjK"/>
+                                            <constraint firstItem="k1G-YQ-ZUu" firstAttribute="leading" secondItem="424-eI-r3G" secondAttribute="leading" constant="8" id="zhv-ZS-Tmq"/>
+                                        </constraints>
+                                        <size key="customSize" width="175" height="150"/>
                                         <connections>
                                             <outlet property="label" destination="f11-pG-jf9" id="NIH-m4-TfX"/>
                                         </connections>
