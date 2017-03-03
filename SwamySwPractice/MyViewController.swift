@@ -31,7 +31,7 @@ class MyViewController: UIViewController {
         slider.addTarget(self, action:#selector(sliderValueDidChange), for: .valueChanged)
         self.view.addSubview(slider)
         
-        let button  = UIButton (frame : CGRect (x:self.view.frame.size.width/2-50, y:self.view.frame.size.height/2-20 ,width:100 , height:40))
+        let button  = UIButton (frame : CGRect (x:self.view.frame.size.width/2-50, y:300 ,width:100 , height:40))
         button.backgroundColor = UIColor.red
         button.setTitle("Go here", for:.normal)
         button.setTitleColor(UIColor.yellow, for: .normal)

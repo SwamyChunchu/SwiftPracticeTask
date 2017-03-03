@@ -20,6 +20,7 @@
 		B2C1A2461E5700E900A7554A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C1A2441E5700E900A7554A /* LaunchScreen.storyboard */; };
 		B2C1A24E1E57012E00A7554A /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C1A24D1E57012E00A7554A /* MyViewController.swift */; };
 		B2C1A2501E5707FA00A7554A /* WrapperCleass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C1A24F1E5707FA00A7554A /* WrapperCleass.swift */; };
+		B2FEF9C71E69554800C11551 /* GooglePathViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FEF9C61E69554800C11551 /* GooglePathViewController.swift */; };
 		E1CD55782EB6DD84FD8238E6 /* Pods_SwamySwPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C9BD321B6B54088F88A07C4 /* Pods_SwamySwPractice.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		B2C1A2471E5700E900A7554A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2C1A24D1E57012E00A7554A /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		B2C1A24F1E5707FA00A7554A /* WrapperCleass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WrapperCleass.swift; sourceTree = "<group>"; };
+		B2FEF9C61E69554800C11551 /* GooglePathViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePathViewController.swift; sourceTree = "<group>"; };
 		C1283E31170700A01EF3BA7E /* Pods-SwamySwPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwamySwPractice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwamySwPractice/Pods-SwamySwPractice.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				B29829631E6829560060CBC8 /* GoogleViewController.swift */,
+				B2FEF9C61E69554800C11551 /* GooglePathViewController.swift */,
 			);
 			name = "Goolgle Plc";
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				B23AB7A21E5AFAA00070A45D /* TableViewCell.swift in Sources */,
 				B24B90AF1E5EAFD8001F295F /* CollectionViewController.swift in Sources */,
 				B2C1A23C1E5700E900A7554A /* AppDelegate.swift in Sources */,
+				B2FEF9C71E69554800C11551 /* GooglePathViewController.swift in Sources */,
 				B23AB79D1E5AF7400070A45D /* TabelViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

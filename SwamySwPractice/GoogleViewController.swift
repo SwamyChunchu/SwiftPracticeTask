@@ -29,7 +29,7 @@ class GoogleViewController: UIViewController,CLLocationManagerDelegate
         
         let locationManager = CLLocationManager()
         // For getting the user permission to use location service when the app is running
-        locationManager.requestWhenInUseAuthorization()
+        //locationManager.requestWhenInUseAuthorization()
         // For getting the user permission to use location service always
         locationManager.requestAlwaysAuthorization()
 
@@ -50,25 +50,25 @@ class GoogleViewController: UIViewController,CLLocationManagerDelegate
         
         
         
-//    
-//        let config = GMSPlacePickerConfig(viewport: nil)
-//        let placePicker = GMSPlacePicker(config: config)
-//        
-//        placePicker.pickPlace(callback: { (place, error) -> Void in
-//            if let error = error {
-//                print("Pick Place error: \(error.localizedDescription)")
-//                return
-//            }
-//            
-//            guard let place = place else {
-//                print("No place selected")
-//                return
-//            }
-//            
-//            print("Place name \(place.name)")
-//            print("Place address \(place.formattedAddress)")
-//            print("Place attributions \(place.attributions)")
-//        })
+    
+        let config = GMSPlacePickerConfig(viewport: nil)
+        let placePicker = GMSPlacePicker(config: config)
+        
+        placePicker.pickPlace(callback: { (place, error) -> Void in
+            if let error = error {
+                print("Pick Place error: \(error.localizedDescription)")
+                return
+            }
+            
+            guard let place = place else {
+                print("No place selected")
+                return
+            }
+            
+            print("Place name \(place.name)")
+            print("Place address \(place.formattedAddress)")
+            print("Place attributions \(place.attributions)")
+        })
         
         
         

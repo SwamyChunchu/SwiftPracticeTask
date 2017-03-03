@@ -35,7 +35,7 @@ class CollectionViewController: UIViewController,UICollectionViewDelegate,UIColl
         layout.sectionInset = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
         
         let width = UIScreen.main.bounds.size.width
-         layout.itemSize = CGSize(width: (width/2)-15, height: 100)
+         layout.itemSize = CGSize(width: (width/3)-15, height: 100)
         
         
 //        if UIScreen.main.bounds.width == 320 {
