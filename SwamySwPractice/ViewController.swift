@@ -21,16 +21,20 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var goButton: UIButton!
 
+    
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
-        
-        
-        
+     
         
         
     }
+    
+    
+    
 
     @IBAction func goButtonAction(_ sender: Any) {
         
@@ -54,11 +58,6 @@ class ViewController: UIViewController {
             
             self.navigationController?.pushViewController(myVC!, animated: true)
         }
-        
-        
-        
-        
-      
         
         
         
@@ -169,7 +168,8 @@ class ViewController: UIViewController {
             do {
                 //create json object from data
                 if let json = try JSONSerialization.jsonObject(with: data, options: .mutableContainers) as? [String: Any] {
-                    print(json)
+                    
+                  //  print(json)
                     // handle json...
                 }
                 
@@ -182,14 +182,6 @@ class ViewController: UIViewController {
     
         
     }
-    
-
-    
-    
-    
-    
-    
-    
     
     
     

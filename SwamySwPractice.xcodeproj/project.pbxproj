@@ -12,6 +12,7 @@
 		B23AB7A31E5AFAA00070A45D /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B23AB7A11E5AFAA00070A45D /* TableViewCell.xib */; };
 		B24B90AF1E5EAFD8001F295F /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24B90AE1E5EAFD8001F295F /* CollectionViewController.swift */; };
 		B24B90B11E5EB17F001F295F /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24B90B01E5EB17F001F295F /* CollectionViewCell.swift */; };
+		B29829641E6829560060CBC8 /* GoogleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29829631E6829560060CBC8 /* GoogleViewController.swift */; };
 		B2C1A23C1E5700E900A7554A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C1A23B1E5700E900A7554A /* AppDelegate.swift */; };
 		B2C1A23E1E5700E900A7554A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C1A23D1E5700E900A7554A /* ViewController.swift */; };
 		B2C1A2411E5700E900A7554A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C1A23F1E5700E900A7554A /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 		B23AB7A11E5AFAA00070A45D /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		B24B90AE1E5EAFD8001F295F /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		B24B90B01E5EB17F001F295F /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		B29829631E6829560060CBC8 /* GoogleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleViewController.swift; sourceTree = "<group>"; };
 		B2C1A2381E5700E900A7554A /* SwamySwPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwamySwPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2C1A23B1E5700E900A7554A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2C1A23D1E5700E900A7554A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +73,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B29829621E6829030060CBC8 /* Goolgle Plc */ = {
+			isa = PBXGroup;
+			children = (
+				B29829631E6829560060CBC8 /* GoogleViewController.swift */,
+			);
+			name = "Goolgle Plc";
+			sourceTree = "<group>";
+		};
 		B2C1A22F1E5700E900A7554A = {
 			isa = PBXGroup;
 			children = (
@@ -96,17 +106,34 @@
 				B2C1A24F1E5707FA00A7554A /* WrapperCleass.swift */,
 				B2C1A23D1E5700E900A7554A /* ViewController.swift */,
 				B2C1A24D1E57012E00A7554A /* MyViewController.swift */,
-				B23AB79C1E5AF7400070A45D /* TabelViewController.swift */,
-				B23AB7A01E5AFAA00070A45D /* TableViewCell.swift */,
-				B23AB7A11E5AFAA00070A45D /* TableViewCell.xib */,
-				B24B90AE1E5EAFD8001F295F /* CollectionViewController.swift */,
-				B24B90B01E5EB17F001F295F /* CollectionViewCell.swift */,
+				B2FEF9C41E693E0D00C11551 /* TableViewVC */,
+				B2FEF9C51E693E4F00C11551 /* CollectionViewVC */,
+				B29829621E6829030060CBC8 /* Goolgle Plc */,
 				B2C1A23F1E5700E900A7554A /* Main.storyboard */,
 				B2C1A2421E5700E900A7554A /* Assets.xcassets */,
 				B2C1A2441E5700E900A7554A /* LaunchScreen.storyboard */,
 				B2C1A2471E5700E900A7554A /* Info.plist */,
 			);
 			path = SwamySwPractice;
+			sourceTree = "<group>";
+		};
+		B2FEF9C41E693E0D00C11551 /* TableViewVC */ = {
+			isa = PBXGroup;
+			children = (
+				B23AB79C1E5AF7400070A45D /* TabelViewController.swift */,
+				B23AB7A01E5AFAA00070A45D /* TableViewCell.swift */,
+				B23AB7A11E5AFAA00070A45D /* TableViewCell.xib */,
+			);
+			name = TableViewVC;
+			sourceTree = "<group>";
+		};
+		B2FEF9C51E693E4F00C11551 /* CollectionViewVC */ = {
+			isa = PBXGroup;
+			children = (
+				B24B90AE1E5EAFD8001F295F /* CollectionViewController.swift */,
+				B24B90B01E5EB17F001F295F /* CollectionViewCell.swift */,
+			);
+			name = CollectionViewVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +171,7 @@
 				TargetAttributes = {
 					B2C1A2371E5700E900A7554A = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = T2ED3Y743H;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -235,6 +263,7 @@
 			files = (
 				B2C1A23E1E5700E900A7554A /* ViewController.swift in Sources */,
 				B2C1A24E1E57012E00A7554A /* MyViewController.swift in Sources */,
+				B29829641E6829560060CBC8 /* GoogleViewController.swift in Sources */,
 				B24B90B11E5EB17F001F295F /* CollectionViewCell.swift in Sources */,
 				B2C1A2501E5707FA00A7554A /* WrapperCleass.swift in Sources */,
 				B23AB7A21E5AFAA00070A45D /* TableViewCell.swift in Sources */,
@@ -287,7 +316,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -337,7 +366,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -364,7 +393,10 @@
 			baseConfigurationReference = C1283E31170700A01EF3BA7E /* Pods-SwamySwPractice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = T2ED3Y743H;
 				INFOPLIST_FILE = SwamySwPractice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ThinkStudio.SwamySwPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -377,7 +409,10 @@
 			baseConfigurationReference = 04B6235638956FB2C734E907 /* Pods-SwamySwPractice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = T2ED3Y743H;
 				INFOPLIST_FILE = SwamySwPractice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ThinkStudio.SwamySwPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";

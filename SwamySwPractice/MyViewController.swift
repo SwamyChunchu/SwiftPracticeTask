@@ -18,15 +18,11 @@ class MyViewController: UIViewController {
         super.viewDidLoad()
        
         
-        
-        
-        
-        
-        let child = UIView(frame: CGRect(x: 100, y: 100,width:100, height: 100))
+        let child = UIView(frame: CGRect(x: self.view.frame.size.width/2-50, y: 100,width:100, height: 100))
         child.backgroundColor = UIColor.red
         self.view.addSubview(child)
         
-        let slider = UISlider (frame: CGRect(x: 10, y: 300,width:300, height: 100))
+        let slider = UISlider (frame: CGRect(x: self.view.frame.size.width/2-150, y: 180,width:300, height: 100))
         slider.minimumValue = 0
         slider.maximumValue = 100
         slider.tintColor = UIColor.red
@@ -35,19 +31,19 @@ class MyViewController: UIViewController {
         slider.addTarget(self, action:#selector(sliderValueDidChange), for: .valueChanged)
         self.view.addSubview(slider)
         
-        let button  = UIButton (frame : CGRect (x:100, y:450 ,width:100 , height:40))
+        let button  = UIButton (frame : CGRect (x:self.view.frame.size.width/2-50, y:self.view.frame.size.height/2-20 ,width:100 , height:40))
         button.backgroundColor = UIColor.red
         button.setTitle("Go here", for:.normal)
         button.setTitleColor(UIColor.yellow, for: .normal)
         self.view.addSubview(button)
         button.addTarget(self, action: #selector(buttonClicked), for: .touchUpInside)
         
-        let switchDemo = UISwitch(frame: CGRect(x:100, y:400 ,width:40, height:40))
+        let switchDemo = UISwitch(frame: CGRect(x:self.view.frame.size.width/2-20, y:420 ,width:40, height:40))
         switchDemo.isOn  = true
         switchDemo.addTarget(self, action: #selector(switchChanged), for: .valueChanged)
         self.view.addSubview(switchDemo)
         
-        let segmentedControl = UISegmentedControl(frame: CGRect(x:10, y:200 ,width:260, height:30))
+        let segmentedControl = UISegmentedControl(frame: CGRect(x:self.view.frame.size.width/2-130, y:260 ,width:260, height:30))
         segmentedControl.insertSegment(withTitle:"index 0", at: 0, animated: false)
         segmentedControl.insertSegment(withTitle:"index 1", at: 1, animated: false)
         segmentedControl.insertSegment(withTitle:"index 2", at: 2, animated: false)
@@ -76,12 +72,11 @@ class MyViewController: UIViewController {
         
         self.navigationController?.pushViewController(myVC!, animated: true)
         
-       // myVC?.myStringValue="Nuvvu Nenu"
+       //        myVC?.myStringValue="Nuvvu Nenu"
+       //        UserDefaults.standard.set("HelloWorld", forKey: "strSave")
+       //        UserDefaults.standard.synchronize()
         
-//        UserDefaults.standard.set("HelloWorld", forKey: "strSave")
-//        UserDefaults.standard.synchronize()
-        
-                myVC?.myStringValue="myViewController"
+                myVC?.myStringValue="TableViewController"
         
         
 

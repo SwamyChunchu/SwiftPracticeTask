@@ -14,9 +14,8 @@ class TabelViewController: UIViewController,UITableViewDataSource,UITableViewDel
 {
     
     var array = NSArray()
-      var myStringValue:String?
-    
-     var cell: TableViewCell!
+    var myStringValue:String?
+    var cell: TableViewCell!
     
     @IBOutlet weak var myTableView: UITableView!
     
@@ -46,12 +45,12 @@ class TabelViewController: UIViewController,UITableViewDataSource,UITableViewDel
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
-        tableView.separatorStyle = .none
-        tableView.separatorColor = UIColor.clear
+       
         
         let identifier = "TableViewCell"
         
         cell = tableView.dequeueReusableCell(withIdentifier: identifier) as? TableViewCell
+        
         
         if cell == nil
         {
@@ -59,18 +58,35 @@ class TabelViewController: UIViewController,UITableViewDataSource,UITableViewDel
             cell = tableView.dequeueReusableCell(withIdentifier: identifier) as? TableViewCell
         }
         
+        tableView.separatorStyle = .none
+        tableView.separatorColor = UIColor.clear
+        
         if indexPath.row==0
         {
             
            // myStringValue = UserDefaults.standard.value(forKey: "strSave") as! String?
-            
+            cell.backgroundColor = UIColor.green
             cell.label.text=myStringValue
         
         }else{
             
         cell.label.text=array.object(at: indexPath.row) as?String
+            
         }
         
+//        let intu = indexPath.row
+//        
+//        if  intu % 2 == 0 {
+//            print("int value \(intu)")
+//            cell.backgroundColor = UIColor.lightGray
+//        }
+//        else
+//        {
+//            cell.backgroundColor = UIColor.white
+//            print("int value \(intu)")
+//        }
+        
+        cell.backgroundColor = getRandomColor()
         
         
         let selectedView = UIView()
@@ -104,20 +120,29 @@ class TabelViewController: UIViewController,UITableViewDataSource,UITableViewDel
     }
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    func getRandomColor() -> UIColor{
+        
+        let randomRed:CGFloat = CGFloat(drand48())
+        
+        let randomGreen:CGFloat = CGFloat(drand48())
+        
+        let randomBlue:CGFloat = CGFloat(drand48())
+        
+        return UIColor(red: randomRed, green: randomGreen, blue: randomBlue, alpha: 1.0)
+    }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
